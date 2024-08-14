@@ -7,7 +7,7 @@ function updateQuoute (quoute) {
     };
 }
 
-export const updateQuouteCreator = (dispatch) => {
+export const updateQuouteInStore = (dispatch) => {
     return (quoute) => {
         dispatch(updateQuoute(quoute));
     }
