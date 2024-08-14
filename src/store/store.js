@@ -3,5 +3,5 @@ import { rootReducer } from "../reducer/rootReducer"
 
 
 export const configureStorage = initState => {
-    createStore(rootReducer, initState)
+    return createStore(rootReducer, initState, undefined)
 }
